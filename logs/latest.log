@@ -1,0 +1,841 @@
+[05:25:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6; Arch Linux null) on Linux 6.14.6-arch1-1 (amd64)
+[05:25:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-88-main@113b18e (2025-05-20T00:45:12Z) for Minecraft 1.21.5
+[05:25:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:25:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[05:25:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - CoreProtect (22.4), Geyser-Spigot (2.7.1-SNAPSHOT), Plan (5.6 build 2965), SkinsRestorer (15.6.3), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), squaremap (1.3.6)
+[05:25:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:25:24] [ServerMain/INFO]: Loaded 1373 recipes
+[05:25:25] [ServerMain/INFO]: Loaded 1484 advancements
+[05:25:25] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[05:25:25] [Server thread/INFO]: Loading properties
+[05:25:26] [Server thread/INFO]: This server is running Paper version 1.21.5-88-main@113b18e (2025-05-20T00:45:12Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[05:25:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:25:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:25:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:25:28] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[05:25:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[05:25:28] [Server thread/INFO]: Default game type: SURVIVAL
+[05:25:28] [Server thread/INFO]: Generating keypair
+[05:25:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:25:28] [Server thread/INFO]: Using epoll channel type
+[05:25:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:25:29] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[05:25:29] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:25:31] [Server thread/WARN]: [floodgate] en_IN is not a supported Floodgate language.
+[05:25:31] [Server thread/INFO]: [floodgate] Took 2,315ms to boot Floodgate
+[05:25:31] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
+[05:25:31] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
+[05:25:31] [Server thread/INFO]: [squaremap] Loading server plugin squaremap v1.3.6
+[05:25:31] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2965
+[05:25:31] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[05:25:33] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:25:33] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:25:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:25:33] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
+[05:25:35] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[05:25:35] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[05:25:36] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:25:36] [Server thread/INFO]: [squaremap] Enabling squaremap v1.3.6
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:25:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:25:38] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.18.Final
+[05:25:39] [Server thread/INFO]: [org.xnio] XNIO version 3.8.16.Final
+[05:25:39] [Server thread/INFO]: [org.xnio.nio] XNIO NIO Implementation Version 3.8.16.Final
+[05:25:39] [Server thread/INFO]: [org.jboss.threads] JBoss Threads version 3.5.0.Final
+[05:25:39] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8080
+[05:25:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:25:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:25:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:25:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:25:39] [Server thread/INFO]: Preparing level "world"
+[05:25:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:25:41] [Server thread/INFO]: Preparing spawn area: 0%
+[05:25:41] [Server thread/INFO]: Preparing spawn area: 0%
+[05:25:41] [Server thread/INFO]: Preparing spawn area: 36%
+[05:25:41] [Server thread/INFO]: Time elapsed: 1115 ms
+[05:25:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:25:42] [Server thread/INFO]: Preparing spawn area: 0%
+[05:25:43] [Server thread/INFO]: Preparing spawn area: 20%
+[05:25:43] [Server thread/INFO]: Preparing spawn area: 20%
+[05:25:43] [Server thread/INFO]: Time elapsed: 1498 ms
+[05:25:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:25:43] [Server thread/INFO]: Preparing spawn area: 0%
+[05:25:43] [Server thread/INFO]: Time elapsed: 276 ms
+[05:25:43] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:25:44] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[05:25:45] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[05:25:45] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[05:25:45] [Server thread/INFO]: --------------------
+[05:25:45] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[05:25:45] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[05:25:45] [Server thread/INFO]: --------------------
+[05:25:45] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2965
+[05:25:46] [Server thread/INFO]: [Plan] 
+[05:25:46] [Server thread/INFO]: [Plan]            ██▌
+[05:25:46] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[05:25:46] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[05:25:46] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2965
+[05:25:46] [Server thread/INFO]: [Plan] 
+[05:25:46] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[05:25:46] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[05:25:47] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[05:25:47] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[05:25:47] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[05:25:47] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[05:25:47] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[05:25:47] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[05:25:47] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[05:25:47] [Server thread/INFO]: [Plan] Loading server identifying information
+[05:25:47] [Server thread/INFO]: [Plan] Server identifier loaded: 75f849c5-a0ca-4135-9466-d45e32fe6766
+[05:25:47] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[05:25:47] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
+[05:25:47] [Server thread/INFO]: [Plan] Registered extension: Floodgate
+[05:25:47] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[05:25:47] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[05:25:48] [Server thread/INFO]: [spark] Starting background profiler...
+[05:25:48] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:25:48] [Server thread/INFO]: [Geyser-Spigot] 
+[05:25:48] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
+[05:25:48] [Server thread/INFO]: [Geyser-Spigot] 
+[05:25:48] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:25:54] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[05:25:54] [Server thread/INFO]: [Geyser-Spigot] Done (5.604s)! Run /geyser help for help!
+[05:25:54] [Server thread/INFO]: Done preparing level "world" (14.680s)
+[05:25:54] [Server thread/INFO]: Running delayed init tasks
+[05:25:54] [ForkJoinPool.commonPool-worker-3/INFO]: [squaremap] Fetching version information...
+[05:25:54] [Server thread/INFO]: Done (46.672s)! For help, type "help"
+[05:25:54] [Craft Scheduler Thread - 3 - Plan/INFO]: [Plan] You're using the latest version.
+[05:25:55] [User Authenticator #0/INFO]: UUID of player MiffMoff is 14d3f87c-5d65-399e-a6b1-2a6d857d9fec
+[05:25:56] [Server thread/INFO]: MiffMoff joined the game
+[05:25:56] [Server thread/INFO]: MiffMoff[/127.0.0.1:47782] logged in with entity id 43 at ([world]632.8711143141464, 122.44752924866437, 420.26451603424647)
+[05:26:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2574ms or 51 ticks behind
+[05:26:49] [Server thread/INFO]: MiffMoff issued server command: /skin
+[05:27:03] [Server thread/INFO]: MiffMoff issued server command: /skin set MiffMoff
+[05:27:27] [Server thread/INFO]: MiffMoff issued server command: /skin search gojo
+[05:29:23] [Server thread/INFO]: MiffMoff issued server command: /sr info player
+[05:29:30] [Server thread/INFO]: MiffMoff issued server command: /sr info player MiffMoff
+[05:30:28] [Server thread/INFO]: MiffMoff lost connection: Disconnected
+[05:30:28] [Server thread/INFO]: MiffMoff left the game
+[05:32:43] [User Authenticator #1/INFO]: UUID of player MiffMoff is 14d3f87c-5d65-399e-a6b1-2a6d857d9fec
+[05:32:43] [Server thread/INFO]: MiffMoff joined the game
+[05:32:43] [Server thread/INFO]: MiffMoff[/127.0.0.1:41822] logged in with entity id 927 at ([world]667.6440585078809, 63.0, 559.2800045930442)
+[05:33:23] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:33:23] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:33:23] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:33:23] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:33:23] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:33:23] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:33:23] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:33:54] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:33:54] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:33:54] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:33:54] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:33:54] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:33:54] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:33:54] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:34:09] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:34:09] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:34:09] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:34:09] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:34:09] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:34:09] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:34:09] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:35:00] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:35:00] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:35:00] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:35:00] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:35:00] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:35:00] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:35:00] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:36:51] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:36:51] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:36:51] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:36:51] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:36:51] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:36:51] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:36:51] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:37:10] [Server thread/INFO]: MiffMoff issued server command: /squaremap fullrender
+[05:37:10] [squaremap-render-[minecraft:overworld]-1/INFO]: [squaremap] Started full map render for minecraft:overworld
+[05:37:10] [squaremap-render-[minecraft:overworld]-1/INFO]: [squaremap] Scanning region files... (this may take a moment)
+[05:37:10] [squaremap-render-[minecraft:overworld]-1/INFO]: [squaremap] Found 156 region files
+[05:37:11] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (0.27%) World: minecraft:overworld Regions: 0/156 Chunks: 425/159744 Elapsed: 00:00:01 ETA: 00:06:14 Rate: 425.0 cps
+[05:37:12] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (0.70%) World: minecraft:overworld Regions: 1/156 Chunks: 1123/159744 Elapsed: 00:00:02 ETA: 00:04:42 Rate: 561.5 cps
+[05:37:13] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (1.10%) World: minecraft:overworld Regions: 1/156 Chunks: 1765/159744 Elapsed: 00:00:03 ETA: 00:04:28 Rate: 588.3 cps
+[05:37:14] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (1.50%) World: minecraft:overworld Regions: 2/156 Chunks: 2390/159744 Elapsed: 00:00:04 ETA: 00:04:23 Rate: 597.5 cps
+[05:37:15] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (2.02%) World: minecraft:overworld Regions: 3/156 Chunks: 3232/159744 Elapsed: 00:00:05 ETA: 00:04:02 Rate: 646.4 cps
+[05:37:16] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (2.33%) World: minecraft:overworld Regions: 3/156 Chunks: 3717/159744 Elapsed: 00:00:06 ETA: 00:04:11 Rate: 619.5 cps
+[05:37:17] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (2.61%) World: minecraft:overworld Regions: 4/156 Chunks: 4166/159744 Elapsed: 00:00:07 ETA: 00:04:21 Rate: 595.1 cps
+[05:37:18] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (2.82%) World: minecraft:overworld Regions: 4/156 Chunks: 4512/159744 Elapsed: 00:00:08 ETA: 00:04:35 Rate: 564.0 cps
+[05:37:19] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (3.03%) World: minecraft:overworld Regions: 4/156 Chunks: 4841/159744 Elapsed: 00:00:09 ETA: 00:04:47 Rate: 537.9 cps
+[05:37:20] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (3.21%) World: minecraft:overworld Regions: 5/156 Chunks: 5120/159744 Elapsed: 00:00:10 ETA: 00:05:02 Rate: 512.0 cps
+[05:37:21] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (3.43%) World: minecraft:overworld Regions: 5/156 Chunks: 5472/159744 Elapsed: 00:00:11 ETA: 00:05:10 Rate: 497.5 cps
+[05:37:22] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (3.64%) World: minecraft:overworld Regions: 5/156 Chunks: 5815/159744 Elapsed: 00:00:12 ETA: 00:05:17 Rate: 484.6 cps
+[05:37:23] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (3.85%) World: minecraft:overworld Regions: 6/156 Chunks: 6144/159744 Elapsed: 00:00:13 ETA: 00:05:24 Rate: 472.6 cps
+[05:37:24] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (4.00%) World: minecraft:overworld Regions: 6/156 Chunks: 6383/159744 Elapsed: 00:00:14 ETA: 00:05:36 Rate: 455.9 cps
+[05:37:25] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (4.21%) World: minecraft:overworld Regions: 6/156 Chunks: 6729/159744 Elapsed: 00:00:15 ETA: 00:05:41 Rate: 448.6 cps
+[05:37:26] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (4.48%) World: minecraft:overworld Regions: 6/156 Chunks: 7154/159744 Elapsed: 00:00:16 ETA: 00:05:41 Rate: 447.1 cps
+[05:37:27] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (4.71%) World: minecraft:overworld Regions: 7/156 Chunks: 7520/159744 Elapsed: 00:00:17 ETA: 00:05:44 Rate: 442.4 cps
+[05:37:28] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (5.02%) World: minecraft:overworld Regions: 7/156 Chunks: 8019/159744 Elapsed: 00:00:18 ETA: 00:05:40 Rate: 445.5 cps
+[05:37:29] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (5.36%) World: minecraft:overworld Regions: 8/156 Chunks: 8555/159744 Elapsed: 00:00:19 ETA: 00:05:35 Rate: 450.3 cps
+[05:37:30] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (5.74%) World: minecraft:overworld Regions: 8/156 Chunks: 9175/159744 Elapsed: 00:00:20 ETA: 00:05:28 Rate: 458.8 cps
+[05:37:31] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (5.99%) World: minecraft:overworld Regions: 9/156 Chunks: 9567/159744 Elapsed: 00:00:21 ETA: 00:05:29 Rate: 457.1 cps
+[05:37:32] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (6.42%) World: minecraft:overworld Regions: 10/156 Chunks: 10260/159744 Elapsed: 00:00:22 ETA: 00:05:20 Rate: 456.9 cps
+[05:37:33] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (6.84%) World: minecraft:overworld Regions: 10/156 Chunks: 10927/159744 Elapsed: 00:00:23 ETA: 00:05:13 Rate: 458.1 cps
+[05:37:34] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (7.20%) World: minecraft:overworld Regions: 11/156 Chunks: 11498/159744 Elapsed: 00:00:24 ETA: 00:05:09 Rate: 455.4 cps
+[05:37:35] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (7.51%) World: minecraft:overworld Regions: 11/156 Chunks: 12000/159744 Elapsed: 00:00:25 ETA: 00:05:07 Rate: 438.4 cps
+[05:37:36] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (7.77%) World: minecraft:overworld Regions: 12/156 Chunks: 12418/159744 Elapsed: 00:00:26 ETA: 00:05:08 Rate: 435.1 cps
+[05:37:37] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (8.06%) World: minecraft:overworld Regions: 12/156 Chunks: 12874/159744 Elapsed: 00:00:27 ETA: 00:05:08 Rate: 435.4 cps
+[05:37:38] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (8.36%) World: minecraft:overworld Regions: 13/156 Chunks: 13356/159744 Elapsed: 00:00:28 ETA: 00:05:06 Rate: 442.2 cps
+[05:37:39] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (8.78%) World: minecraft:overworld Regions: 13/156 Chunks: 14027/159744 Elapsed: 00:00:29 ETA: 00:05:01 Rate: 459.3 cps
+[05:37:40] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (9.10%) World: minecraft:overworld Regions: 14/156 Chunks: 14536/159744 Elapsed: 00:00:30 ETA: 00:04:59 Rate: 470.8 cps
+[05:37:41] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (9.42%) World: minecraft:overworld Regions: 14/156 Chunks: 15049/159744 Elapsed: 00:00:31 ETA: 00:04:58 Rate: 478.9 cps
+[05:37:42] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (9.74%) World: minecraft:overworld Regions: 15/156 Chunks: 15561/159744 Elapsed: 00:00:32 ETA: 00:04:56 Rate: 487.3 cps
+[05:37:43] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (10.08%) World: minecraft:overworld Regions: 15/156 Chunks: 16096/159744 Elapsed: 00:00:33 ETA: 00:04:54 Rate: 497.6 cps
+[05:37:44] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (10.91%) World: minecraft:overworld Regions: 17/156 Chunks: 17429/159744 Elapsed: 00:00:34 ETA: 00:04:37 Rate: 552.3 cps
+[05:37:45] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (11.16%) World: minecraft:overworld Regions: 17/156 Chunks: 17830/159744 Elapsed: 00:00:35 ETA: 00:04:38 Rate: 555.0 cps
+[05:37:46] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (11.44%) World: minecraft:overworld Regions: 17/156 Chunks: 18278/159744 Elapsed: 00:00:36 ETA: 00:04:38 Rate: 556.2 cps
+[05:37:47] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (11.74%) World: minecraft:overworld Regions: 18/156 Chunks: 18750/159744 Elapsed: 00:00:37 ETA: 00:04:38 Rate: 561.5 cps
+[05:37:48] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (11.99%) World: minecraft:overworld Regions: 18/156 Chunks: 19155/159744 Elapsed: 00:00:38 ETA: 00:04:38 Rate: 556.8 cps
+[05:37:49] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (12.19%) World: minecraft:overworld Regions: 19/156 Chunks: 19477/159744 Elapsed: 00:00:39 ETA: 00:04:40 Rate: 546.1 cps
+[05:37:50] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (12.46%) World: minecraft:overworld Regions: 19/156 Chunks: 19907/159744 Elapsed: 00:00:40 ETA: 00:04:40 Rate: 536.6 cps
+[05:37:51] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (12.83%) World: minecraft:overworld Regions: 20/156 Chunks: 20501/159744 Elapsed: 00:00:41 ETA: 00:04:38 Rate: 546.7 cps
+[05:37:52] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (13.08%) World: minecraft:overworld Regions: 20/156 Chunks: 20891/159744 Elapsed: 00:00:42 ETA: 00:04:39 Rate: 531.5 cps
+[05:37:53] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (13.38%) World: minecraft:overworld Regions: 20/156 Chunks: 21375/159744 Elapsed: 00:00:43 ETA: 00:04:38 Rate: 522.4 cps
+[05:37:54] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (13.64%) World: minecraft:overworld Regions: 21/156 Chunks: 21788/159744 Elapsed: 00:00:44 ETA: 00:04:38 Rate: 514.5 cps
+[05:37:55] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (13.92%) World: minecraft:overworld Regions: 21/156 Chunks: 22230/159744 Elapsed: 00:00:45 ETA: 00:04:38 Rate: 511.5 cps
+[05:37:56] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (14.22%) World: minecraft:overworld Regions: 22/156 Chunks: 22716/159744 Elapsed: 00:00:46 ETA: 00:04:37 Rate: 514.9 cps
+[05:37:57] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (14.66%) World: minecraft:overworld Regions: 22/156 Chunks: 23422/159744 Elapsed: 00:00:47 ETA: 00:04:33 Rate: 527.4 cps
+[05:37:58] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (15.00%) World: minecraft:overworld Regions: 23/156 Chunks: 23961/159744 Elapsed: 00:00:48 ETA: 00:04:32 Rate: 530.2 cps
+[05:37:59] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (15.40%) World: minecraft:overworld Regions: 24/156 Chunks: 24600/159744 Elapsed: 00:00:49 ETA: 00:04:29 Rate: 528.6 cps
+[05:38:00] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (15.72%) World: minecraft:overworld Regions: 24/156 Chunks: 25112/159744 Elapsed: 00:00:50 ETA: 00:04:28 Rate: 528.8 cps
+[05:38:01] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (16.07%) World: minecraft:overworld Regions: 25/156 Chunks: 25673/159744 Elapsed: 00:00:51 ETA: 00:04:26 Rate: 531.2 cps
+[05:38:02] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (16.38%) World: minecraft:overworld Regions: 25/156 Chunks: 26173/159744 Elapsed: 00:00:52 ETA: 00:04:25 Rate: 530.6 cps
+[05:38:03] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (16.84%) World: minecraft:overworld Regions: 26/156 Chunks: 26901/159744 Elapsed: 00:00:53 ETA: 00:04:21 Rate: 540.2 cps
+[05:38:04] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (17.25%) World: minecraft:overworld Regions: 26/156 Chunks: 27549/159744 Elapsed: 00:00:54 ETA: 00:04:19 Rate: 506.0 cps
+[05:38:05] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (17.55%) World: minecraft:overworld Regions: 27/156 Chunks: 28041/159744 Elapsed: 00:00:55 ETA: 00:04:18 Rate: 510.6 cps
+[05:38:06] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (18.01%) World: minecraft:overworld Regions: 28/156 Chunks: 28771/159744 Elapsed: 00:00:56 ETA: 00:04:14 Rate: 524.6 cps
+[05:38:07] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (18.35%) World: minecraft:overworld Regions: 28/156 Chunks: 29309/159744 Elapsed: 00:00:57 ETA: 00:04:13 Rate: 528.0 cps
+[05:38:08] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (18.79%) World: minecraft:overworld Regions: 29/156 Chunks: 30022/159744 Elapsed: 00:00:58 ETA: 00:04:10 Rate: 543.4 cps
+[05:38:09] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (19.20%) World: minecraft:overworld Regions: 29/156 Chunks: 30672/159744 Elapsed: 00:00:59 ETA: 00:04:08 Rate: 559.8 cps
+[05:38:10] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (19.56%) World: minecraft:overworld Regions: 30/156 Chunks: 31253/159744 Elapsed: 00:01:00 ETA: 00:04:06 Rate: 567.3 cps
+[05:38:11] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (19.92%) World: minecraft:overworld Regions: 31/156 Chunks: 31814/159744 Elapsed: 00:01:01 ETA: 00:04:05 Rate: 565.6 cps
+[05:38:12] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (20.60%) World: minecraft:overworld Regions: 32/156 Chunks: 32913/159744 Elapsed: 00:01:02 ETA: 00:03:58 Rate: 601.1 cps
+[05:38:13] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (20.93%) World: minecraft:overworld Regions: 32/156 Chunks: 33435/159744 Elapsed: 00:01:03 ETA: 00:03:57 Rate: 603.0 cps
+[05:38:14] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (21.19%) World: minecraft:overworld Regions: 33/156 Chunks: 33843/159744 Elapsed: 00:01:04 ETA: 00:03:58 Rate: 602.8 cps
+[05:38:15] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (21.53%) World: minecraft:overworld Regions: 33/156 Chunks: 34390/159744 Elapsed: 00:01:05 ETA: 00:03:56 Rate: 608.0 cps
+[05:38:16] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (21.82%) World: minecraft:overworld Regions: 34/156 Chunks: 34863/159744 Elapsed: 00:01:06 ETA: 00:03:56 Rate: 607.4 cps
+[05:38:17] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (22.05%) World: minecraft:overworld Regions: 34/156 Chunks: 35221/159744 Elapsed: 00:01:07 ETA: 00:03:56 Rate: 590.0 cps
+[05:38:18] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (22.37%) World: minecraft:overworld Regions: 34/156 Chunks: 35741/159744 Elapsed: 00:01:08 ETA: 00:03:55 Rate: 589.0 cps
+[05:38:19] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (23.66%) World: minecraft:overworld Regions: 36/156 Chunks: 37795/159744 Elapsed: 00:01:09 ETA: 00:03:42 Rate: 659.8 cps
+[05:38:20] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (23.98%) World: minecraft:overworld Regions: 37/156 Chunks: 38310/159744 Elapsed: 00:01:10 ETA: 00:03:41 Rate: 659.9 cps
+[05:38:21] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (24.42%) World: minecraft:overworld Regions: 38/156 Chunks: 39006/159744 Elapsed: 00:01:11 ETA: 00:03:39 Rate: 666.6 cps
+[05:38:22] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (24.64%) World: minecraft:overworld Regions: 38/156 Chunks: 39365/159744 Elapsed: 00:01:12 ETA: 00:03:40 Rate: 659.6 cps
+[05:38:23] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (25.09%) World: minecraft:overworld Regions: 39/156 Chunks: 40072/159744 Elapsed: 00:01:13 ETA: 00:03:38 Rate: 658.5 cps
+[05:38:24] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (25.71%) World: minecraft:overworld Regions: 40/156 Chunks: 41071/159744 Elapsed: 00:01:14 ETA: 00:03:33 Rate: 676.1 cps
+[05:38:25] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (25.95%) World: minecraft:overworld Regions: 40/156 Chunks: 41455/159744 Elapsed: 00:01:15 ETA: 00:03:34 Rate: 670.7 cps
+[05:38:26] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (26.27%) World: minecraft:overworld Regions: 40/156 Chunks: 41962/159744 Elapsed: 00:01:16 ETA: 00:03:33 Rate: 659.5 cps
+[05:38:27] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (26.47%) World: minecraft:overworld Regions: 41/156 Chunks: 42292/159744 Elapsed: 00:01:17 ETA: 00:03:33 Rate: 649.1 cps
+[05:38:28] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (26.71%) World: minecraft:overworld Regions: 41/156 Chunks: 42666/159744 Elapsed: 00:01:18 ETA: 00:03:34 Rate: 632.2 cps
+[05:38:29] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (26.99%) World: minecraft:overworld Regions: 42/156 Chunks: 43119/159744 Elapsed: 00:01:19 ETA: 00:03:33 Rate: 622.4 cps
+[05:38:30] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (27.25%) World: minecraft:overworld Regions: 42/156 Chunks: 43535/159744 Elapsed: 00:01:20 ETA: 00:03:33 Rate: 614.1 cps
+[05:38:31] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (27.56%) World: minecraft:overworld Regions: 42/156 Chunks: 44024/159744 Elapsed: 00:01:21 ETA: 00:03:32 Rate: 610.5 cps
+[05:38:32] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (27.80%) World: minecraft:overworld Regions: 43/156 Chunks: 44409/159744 Elapsed: 00:01:22 ETA: 00:03:32 Rate: 574.8 cps
+[05:38:33] [Server thread/INFO]: MiffMoff issued server command: /squaremap show
+[05:38:33] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (28.07%) World: minecraft:overworld Regions: 43/156 Chunks: 44847/159744 Elapsed: 00:01:23 ETA: 00:03:32 Rate: 570.6 cps
+[05:38:34] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (28.41%) World: minecraft:overworld Regions: 44/156 Chunks: 45384/159744 Elapsed: 00:01:24 ETA: 00:03:31 Rate: 577.0 cps
+[05:38:35] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (28.76%) World: minecraft:overworld Regions: 44/156 Chunks: 45940/159744 Elapsed: 00:01:25 ETA: 00:03:30 Rate: 577.5 cps
+[05:38:36] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (29.10%) World: minecraft:overworld Regions: 45/156 Chunks: 46492/159744 Elapsed: 00:01:26 ETA: 00:03:29 Rate: 581.5 cps
+[05:38:37] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (29.45%) World: minecraft:overworld Regions: 45/156 Chunks: 47044/159744 Elapsed: 00:01:27 ETA: 00:03:28 Rate: 591.1 cps
+[05:38:38] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (30.22%) World: minecraft:overworld Regions: 47/156 Chunks: 48278/159744 Elapsed: 00:01:28 ETA: 00:03:23 Rate: 626.9 cps
+[05:38:39] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (31.54%) World: minecraft:overworld Regions: 49/156 Chunks: 50389/159744 Elapsed: 00:01:29 ETA: 00:03:13 Rate: 629.7 cps
+[05:38:40] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (31.86%) World: minecraft:overworld Regions: 49/156 Chunks: 50893/159744 Elapsed: 00:01:30 ETA: 00:03:12 Rate: 629.1 cps
+[05:38:41] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (32.20%) World: minecraft:overworld Regions: 50/156 Chunks: 51437/159744 Elapsed: 00:01:31 ETA: 00:03:11 Rate: 621.5 cps
+[05:38:42] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (32.40%) World: minecraft:overworld Regions: 50/156 Chunks: 51757/159744 Elapsed: 00:01:32 ETA: 00:03:11 Rate: 619.6 cps
+[05:38:43] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (32.68%) World: minecraft:overworld Regions: 50/156 Chunks: 52205/159744 Elapsed: 00:01:33 ETA: 00:03:11 Rate: 606.6 cps
+[05:38:44] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (33.00%) World: minecraft:overworld Regions: 51/156 Chunks: 52711/159744 Elapsed: 00:01:34 ETA: 00:03:10 Rate: 582.0 cps
+[05:38:45] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (33.85%) World: minecraft:overworld Regions: 52/156 Chunks: 54072/159744 Elapsed: 00:01:35 ETA: 00:03:05 Rate: 630.9 cps
+[05:38:46] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (34.80%) World: minecraft:overworld Regions: 54/156 Chunks: 55596/159744 Elapsed: 00:01:36 ETA: 00:02:59 Rate: 681.7 cps
+[05:38:47] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (35.59%) World: minecraft:overworld Regions: 55/156 Chunks: 56846/159744 Elapsed: 00:01:37 ETA: 00:02:55 Rate: 727.7 cps
+[05:38:48] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (35.89%) World: minecraft:overworld Regions: 55/156 Chunks: 57339/159744 Elapsed: 00:01:38 ETA: 00:02:55 Rate: 733.6 cps
+[05:38:49] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (36.17%) World: minecraft:overworld Regions: 56/156 Chunks: 57778/159744 Elapsed: 00:01:39 ETA: 00:02:54 Rate: 733.0 cps
+[05:38:50] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (36.50%) World: minecraft:overworld Regions: 56/156 Chunks: 58311/159744 Elapsed: 00:01:40 ETA: 00:02:53 Rate: 738.8 cps
+[05:38:51] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (36.73%) World: minecraft:overworld Regions: 57/156 Chunks: 58676/159744 Elapsed: 00:01:41 ETA: 00:02:53 Rate: 732.6 cps
+[05:38:52] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (36.95%) World: minecraft:overworld Regions: 57/156 Chunks: 59027/159744 Elapsed: 00:01:42 ETA: 00:02:54 Rate: 730.9 cps
+[05:38:53] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (37.23%) World: minecraft:overworld Regions: 57/156 Chunks: 59475/159744 Elapsed: 00:01:43 ETA: 00:02:53 Rate: 731.4 cps
+[05:38:54] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (37.91%) World: minecraft:overworld Regions: 58/156 Chunks: 60553/159744 Elapsed: 00:01:44 ETA: 00:02:50 Rate: 758.5 cps
+[05:38:55] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (38.63%) World: minecraft:overworld Regions: 59/156 Chunks: 61716/159744 Elapsed: 00:01:45 ETA: 00:02:46 Rate: 788.8 cps
+[05:38:56] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (38.83%) World: minecraft:overworld Regions: 60/156 Chunks: 62021/159744 Elapsed: 00:01:46 ETA: 00:02:47 Rate: 776.5 cps
+[05:38:57] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (39.28%) World: minecraft:overworld Regions: 60/156 Chunks: 62750/159744 Elapsed: 00:01:47 ETA: 00:02:45 Rate: 785.3 cps
+[05:38:58] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (39.48%) World: minecraft:overworld Regions: 61/156 Chunks: 63063/159744 Elapsed: 00:01:48 ETA: 00:02:45 Rate: 739.2 cps
+[05:38:59] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (39.71%) World: minecraft:overworld Regions: 61/156 Chunks: 63436/159744 Elapsed: 00:01:49 ETA: 00:02:45 Rate: 652.4 cps
+[05:39:00] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (41.08%) World: minecraft:overworld Regions: 63/156 Chunks: 65621/159744 Elapsed: 00:01:50 ETA: 00:02:37 Rate: 736.4 cps
+[05:39:01] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (41.97%) World: minecraft:overworld Regions: 65/156 Chunks: 67050/159744 Elapsed: 00:01:51 ETA: 00:02:33 Rate: 780.6 cps
+[05:39:02] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (42.61%) World: minecraft:overworld Regions: 66/156 Chunks: 68074/159744 Elapsed: 00:01:52 ETA: 00:02:30 Rate: 815.9 cps
+[05:39:03] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (42.99%) World: minecraft:overworld Regions: 66/156 Chunks: 68673/159744 Elapsed: 00:01:53 ETA: 00:02:29 Rate: 823.4 cps
+[05:39:04] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (43.26%) World: minecraft:overworld Regions: 67/156 Chunks: 69109/159744 Elapsed: 00:01:54 ETA: 00:02:29 Rate: 819.9 cps
+[05:39:05] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (43.50%) World: minecraft:overworld Regions: 67/156 Chunks: 69493/159744 Elapsed: 00:01:55 ETA: 00:02:29 Rate: 771.0 cps
+[05:39:06] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (43.80%) World: minecraft:overworld Regions: 67/156 Chunks: 69962/159744 Elapsed: 00:01:56 ETA: 00:02:28 Rate: 718.3 cps
+[05:39:07] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (44.06%) World: minecraft:overworld Regions: 68/156 Chunks: 70377/159744 Elapsed: 00:01:57 ETA: 00:02:28 Rate: 676.5 cps
+[05:39:08] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (44.32%) World: minecraft:overworld Regions: 68/156 Chunks: 70798/159744 Elapsed: 00:01:58 ETA: 00:02:28 Rate: 673.0 cps
+[05:39:09] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (44.64%) World: minecraft:overworld Regions: 69/156 Chunks: 71304/159744 Elapsed: 00:01:59 ETA: 00:02:27 Rate: 676.3 cps
+[05:39:10] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (44.98%) World: minecraft:overworld Regions: 69/156 Chunks: 71848/159744 Elapsed: 00:02:00 ETA: 00:02:26 Rate: 676.9 cps
+[05:39:11] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (45.32%) World: minecraft:overworld Regions: 70/156 Chunks: 72392/159744 Elapsed: 00:02:01 ETA: 00:02:26 Rate: 685.8 cps
+[05:39:12] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (45.64%) World: minecraft:overworld Regions: 70/156 Chunks: 72904/159744 Elapsed: 00:02:02 ETA: 00:02:25 Rate: 693.9 cps
+[05:39:13] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (46.10%) World: minecraft:overworld Regions: 71/156 Chunks: 73647/159744 Elapsed: 00:02:03 ETA: 00:02:23 Rate: 708.6 cps
+[05:39:14] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (46.50%) World: minecraft:overworld Regions: 72/156 Chunks: 74287/159744 Elapsed: 00:02:04 ETA: 00:02:22 Rate: 686.7 cps
+[05:39:15] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (46.82%) World: minecraft:overworld Regions: 72/156 Chunks: 74792/159744 Elapsed: 00:02:05 ETA: 00:02:21 Rate: 653.8 cps
+[05:39:16] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (47.17%) World: minecraft:overworld Regions: 73/156 Chunks: 75353/159744 Elapsed: 00:02:06 ETA: 00:02:21 Rate: 666.6 cps
+[05:39:17] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (47.79%) World: minecraft:overworld Regions: 74/156 Chunks: 76341/159744 Elapsed: 00:02:07 ETA: 00:02:18 Rate: 679.5 cps
+[05:39:18] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (48.43%) World: minecraft:overworld Regions: 75/156 Chunks: 77371/159744 Elapsed: 00:02:08 ETA: 00:02:16 Rate: 715.4 cps
+[05:39:19] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (48.71%) World: minecraft:overworld Regions: 75/156 Chunks: 77819/159744 Elapsed: 00:02:09 ETA: 00:02:15 Rate: 719.1 cps
+[05:39:20] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (49.08%) World: minecraft:overworld Regions: 76/156 Chunks: 78395/159744 Elapsed: 00:02:10 ETA: 00:02:14 Rate: 638.7 cps
+[05:39:21] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (49.27%) World: minecraft:overworld Regions: 76/156 Chunks: 78706/159744 Elapsed: 00:02:11 ETA: 00:02:14 Rate: 582.8 cps
+[05:39:22] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (49.58%) World: minecraft:overworld Regions: 76/156 Chunks: 79202/159744 Elapsed: 00:02:12 ETA: 00:02:14 Rate: 556.4 cps
+[05:39:23] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (49.91%) World: minecraft:overworld Regions: 77/156 Chunks: 79728/159744 Elapsed: 00:02:13 ETA: 00:02:13 Rate: 552.8 cps
+[05:39:24] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (50.28%) World: minecraft:overworld Regions: 77/156 Chunks: 80318/159744 Elapsed: 00:02:14 ETA: 00:02:12 Rate: 560.5 cps
+[05:39:25] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (51.25%) World: minecraft:overworld Regions: 79/156 Chunks: 81876/159744 Elapsed: 00:02:15 ETA: 00:02:08 Rate: 619.1 cps
+[05:39:26] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (51.94%) World: minecraft:overworld Regions: 80/156 Chunks: 82976/159744 Elapsed: 00:02:16 ETA: 00:02:05 Rate: 650.7 cps
+[05:39:27] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (52.25%) World: minecraft:overworld Regions: 80/156 Chunks: 83473/159744 Elapsed: 00:02:17 ETA: 00:02:05 Rate: 654.8 cps
+[05:39:28] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (53.65%) World: minecraft:overworld Regions: 82/156 Chunks: 85703/159744 Elapsed: 00:02:18 ETA: 00:01:59 Rate: 745.2 cps
+[05:39:29] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (53.84%) World: minecraft:overworld Regions: 83/156 Chunks: 86006/159744 Elapsed: 00:02:19 ETA: 00:01:59 Rate: 735.1 cps
+[05:39:30] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (54.13%) World: minecraft:overworld Regions: 83/156 Chunks: 86462/159744 Elapsed: 00:02:20 ETA: 00:01:58 Rate: 730.7 cps
+[05:39:31] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (54.45%) World: minecraft:overworld Regions: 84/156 Chunks: 86977/159744 Elapsed: 00:02:21 ETA: 00:01:57 Rate: 729.2 cps
+[05:39:32] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (54.78%) World: minecraft:overworld Regions: 84/156 Chunks: 87513/159744 Elapsed: 00:02:22 ETA: 00:01:57 Rate: 730.5 cps
+[05:39:33] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (55.08%) World: minecraft:overworld Regions: 85/156 Chunks: 87980/159744 Elapsed: 00:02:23 ETA: 00:01:56 Rate: 716.6 cps
+[05:39:34] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (55.58%) World: minecraft:overworld Regions: 86/156 Chunks: 88791/159744 Elapsed: 00:02:24 ETA: 00:01:55 Rate: 725.2 cps
+[05:39:35] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (56.25%) World: minecraft:overworld Regions: 87/156 Chunks: 89857/159744 Elapsed: 00:02:25 ETA: 00:01:52 Rate: 753.2 cps
+[05:39:36] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (56.56%) World: minecraft:overworld Regions: 87/156 Chunks: 90358/159744 Elapsed: 00:02:26 ETA: 00:01:52 Rate: 750.2 cps
+[05:39:37] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (56.88%) World: minecraft:overworld Regions: 88/156 Chunks: 90859/159744 Elapsed: 00:02:27 ETA: 00:01:51 Rate: 725.9 cps
+[05:39:38] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (57.13%) World: minecraft:overworld Regions: 88/156 Chunks: 91262/159744 Elapsed: 00:02:28 ETA: 00:01:51 Rate: 694.5 cps
+[05:39:39] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (57.52%) World: minecraft:overworld Regions: 89/156 Chunks: 91883/159744 Elapsed: 00:02:29 ETA: 00:01:50 Rate: 703.2 cps
+[05:39:40] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (57.74%) World: minecraft:overworld Regions: 89/156 Chunks: 92236/159744 Elapsed: 00:02:30 ETA: 00:01:49 Rate: 692.0 cps
+[05:39:41] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (58.13%) World: minecraft:overworld Regions: 89/156 Chunks: 92852/159744 Elapsed: 00:02:31 ETA: 00:01:48 Rate: 707.3 cps
+[05:39:42] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (58.30%) World: minecraft:overworld Regions: 90/156 Chunks: 93138/159744 Elapsed: 00:02:32 ETA: 00:01:48 Rate: 696.8 cps
+[05:39:43] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (58.56%) World: minecraft:overworld Regions: 90/156 Chunks: 93547/159744 Elapsed: 00:02:33 ETA: 00:01:48 Rate: 691.0 cps
+[05:39:44] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (58.98%) World: minecraft:overworld Regions: 91/156 Chunks: 94224/159744 Elapsed: 00:02:34 ETA: 00:01:47 Rate: 695.3 cps
+[05:39:45] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (59.47%) World: minecraft:overworld Regions: 92/156 Chunks: 94996/159744 Elapsed: 00:02:35 ETA: 00:01:45 Rate: 656.0 cps
+[05:39:46] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (59.80%) World: minecraft:overworld Regions: 92/156 Chunks: 95533/159744 Elapsed: 00:02:36 ETA: 00:01:44 Rate: 627.9 cps
+[05:39:47] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (60.21%) World: minecraft:overworld Regions: 93/156 Chunks: 96180/159744 Elapsed: 00:02:37 ETA: 00:01:43 Rate: 635.4 cps
+[05:39:48] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (60.58%) World: minecraft:overworld Regions: 93/156 Chunks: 96772/159744 Elapsed: 00:02:38 ETA: 00:01:42 Rate: 553.5 cps
+[05:39:49] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (61.84%) World: minecraft:overworld Regions: 95/156 Chunks: 98791/159744 Elapsed: 00:02:39 ETA: 00:01:38 Rate: 639.2 cps
+[05:39:50] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (62.12%) World: minecraft:overworld Regions: 96/156 Chunks: 99232/159744 Elapsed: 00:02:40 ETA: 00:01:37 Rate: 638.5 cps
+[05:39:51] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (62.38%) World: minecraft:overworld Regions: 96/156 Chunks: 99646/159744 Elapsed: 00:02:41 ETA: 00:01:37 Rate: 633.5 cps
+[05:39:52] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (62.74%) World: minecraft:overworld Regions: 97/156 Chunks: 100222/159744 Elapsed: 00:02:42 ETA: 00:01:36 Rate: 635.5 cps
+[05:39:53] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (62.98%) World: minecraft:overworld Regions: 97/156 Chunks: 100606/159744 Elapsed: 00:02:43 ETA: 00:01:35 Rate: 631.3 cps
+[05:39:54] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (63.22%) World: minecraft:overworld Regions: 97/156 Chunks: 100992/159744 Elapsed: 00:02:44 ETA: 00:01:35 Rate: 610.0 cps
+[05:39:55] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (63.46%) World: minecraft:overworld Regions: 98/156 Chunks: 101374/159744 Elapsed: 00:02:45 ETA: 00:01:35 Rate: 575.9 cps
+[05:39:56] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (63.66%) World: minecraft:overworld Regions: 98/156 Chunks: 101701/159744 Elapsed: 00:02:46 ETA: 00:01:34 Rate: 567.1 cps
+[05:39:57] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (65.03%) World: minecraft:overworld Regions: 100/156 Chunks: 103887/159744 Elapsed: 00:02:47 ETA: 00:01:29 Rate: 651.4 cps
+[05:39:58] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (65.45%) World: minecraft:overworld Regions: 101/156 Chunks: 104559/159744 Elapsed: 00:02:48 ETA: 00:01:28 Rate: 664.9 cps
+[05:39:59] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (66.03%) World: minecraft:overworld Regions: 102/156 Chunks: 105478/159744 Elapsed: 00:02:49 ETA: 00:01:26 Rate: 679.8 cps
+[05:40:00] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (66.26%) World: minecraft:overworld Regions: 102/156 Chunks: 105848/159744 Elapsed: 00:02:50 ETA: 00:01:26 Rate: 680.6 cps
+[05:40:01] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (66.50%) World: minecraft:overworld Regions: 102/156 Chunks: 106222/159744 Elapsed: 00:02:51 ETA: 00:01:26 Rate: 668.5 cps
+[05:40:02] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (66.65%) World: minecraft:overworld Regions: 103/156 Chunks: 106464/159744 Elapsed: 00:02:52 ETA: 00:01:26 Rate: 666.3 cps
+[05:40:03] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (66.86%) World: minecraft:overworld Regions: 103/156 Chunks: 106806/159744 Elapsed: 00:02:53 ETA: 00:01:25 Rate: 663.0 cps
+[05:40:04] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (67.17%) World: minecraft:overworld Regions: 103/156 Chunks: 107295/159744 Elapsed: 00:02:54 ETA: 00:01:25 Rate: 653.5 cps
+[05:40:05] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (67.35%) World: minecraft:overworld Regions: 104/156 Chunks: 107584/159744 Elapsed: 00:02:55 ETA: 00:01:24 Rate: 629.4 cps
+[05:40:06] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (67.62%) World: minecraft:overworld Regions: 104/156 Chunks: 108022/159744 Elapsed: 00:02:56 ETA: 00:01:24 Rate: 624.5 cps
+[05:40:07] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (68.01%) World: minecraft:overworld Regions: 105/156 Chunks: 108645/159744 Elapsed: 00:02:57 ETA: 00:01:23 Rate: 623.2 cps
+[05:40:08] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (68.40%) World: minecraft:overworld Regions: 105/156 Chunks: 109263/159744 Elapsed: 00:02:58 ETA: 00:01:22 Rate: 624.5 cps
+[05:40:09] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (68.62%) World: minecraft:overworld Regions: 106/156 Chunks: 109615/159744 Elapsed: 00:02:59 ETA: 00:01:21 Rate: 541.2 cps
+[05:40:10] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (69.23%) World: minecraft:overworld Regions: 107/156 Chunks: 110591/159744 Elapsed: 00:03:00 ETA: 00:01:20 Rate: 568.0 cps
+[05:40:11] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (69.57%) World: minecraft:overworld Regions: 107/156 Chunks: 111135/159744 Elapsed: 00:03:01 ETA: 00:01:19 Rate: 574.5 cps
+[05:40:12] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (69.95%) World: minecraft:overworld Regions: 108/156 Chunks: 111748/159744 Elapsed: 00:03:02 ETA: 00:01:18 Rate: 576.3 cps
+[05:40:13] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (70.24%) World: minecraft:overworld Regions: 108/156 Chunks: 112199/159744 Elapsed: 00:03:03 ETA: 00:01:17 Rate: 579.6 cps
+[05:40:14] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (71.49%) World: minecraft:overworld Regions: 110/156 Chunks: 114199/159744 Elapsed: 00:03:04 ETA: 00:01:13 Rate: 660.4 cps
+[05:40:15] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (72.07%) World: minecraft:overworld Regions: 111/156 Chunks: 115123/159744 Elapsed: 00:03:05 ETA: 00:01:11 Rate: 687.5 cps
+[05:40:16] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (72.41%) World: minecraft:overworld Regions: 111/156 Chunks: 115669/159744 Elapsed: 00:03:06 ETA: 00:01:10 Rate: 698.4 cps
+[05:40:17] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (72.65%) World: minecraft:overworld Regions: 112/156 Chunks: 116049/159744 Elapsed: 00:03:07 ETA: 00:01:10 Rate: 608.1 cps
+[05:40:18] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (73.01%) World: minecraft:overworld Regions: 112/156 Chunks: 116625/159744 Elapsed: 00:03:08 ETA: 00:01:09 Rate: 603.3 cps
+[05:40:19] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (73.33%) World: minecraft:overworld Regions: 113/156 Chunks: 117141/159744 Elapsed: 00:03:09 ETA: 00:01:08 Rate: 583.1 cps
+[05:40:20] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (73.89%) World: minecraft:overworld Regions: 114/156 Chunks: 118032/159744 Elapsed: 00:03:10 ETA: 00:01:07 Rate: 609.2 cps
+[05:40:21] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (74.48%) World: minecraft:overworld Regions: 115/156 Chunks: 118972/159744 Elapsed: 00:03:11 ETA: 00:01:05 Rate: 637.5 cps
+[05:40:22] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (74.79%) World: minecraft:overworld Regions: 115/156 Chunks: 119472/159744 Elapsed: 00:03:12 ETA: 00:01:04 Rate: 650.4 cps
+[05:40:23] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (75.12%) World: minecraft:overworld Regions: 116/156 Chunks: 120002/159744 Elapsed: 00:03:13 ETA: 00:01:03 Rate: 659.8 cps
+[05:40:24] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (75.46%) World: minecraft:overworld Regions: 116/156 Chunks: 120540/159744 Elapsed: 00:03:14 ETA: 00:01:03 Rate: 662.2 cps
+[05:40:25] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (76.03%) World: minecraft:overworld Regions: 117/156 Chunks: 121451/159744 Elapsed: 00:03:15 ETA: 00:01:01 Rate: 693.4 cps
+[05:40:26] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (76.37%) World: minecraft:overworld Regions: 118/156 Chunks: 121991/159744 Elapsed: 00:03:16 ETA: 00:01:00 Rate: 698.5 cps
+[05:40:27] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (77.31%) World: minecraft:overworld Regions: 119/156 Chunks: 123496/159744 Elapsed: 00:03:17 ETA: 00:00:57 Rate: 742.5 cps
+[05:40:28] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (78.91%) World: minecraft:overworld Regions: 121/156 Chunks: 126055/159744 Elapsed: 00:03:18 ETA: 00:00:52 Rate: 839.6 cps
+[05:40:29] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (80.06%) World: minecraft:overworld Regions: 123/156 Chunks: 127886/159744 Elapsed: 00:03:19 ETA: 00:00:49 Rate: 913.5 cps
+[05:40:30] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (81.61%) World: minecraft:overworld Regions: 126/156 Chunks: 130369/159744 Elapsed: 00:03:20 ETA: 00:00:45 Rate: 988.9 cps
+[05:40:31] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (81.93%) World: minecraft:overworld Regions: 126/156 Chunks: 130882/159744 Elapsed: 00:03:21 ETA: 00:00:44 Rate: 987.4 cps
+[05:40:32] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (82.24%) World: minecraft:overworld Regions: 127/156 Chunks: 131373/159744 Elapsed: 00:03:22 ETA: 00:00:43 Rate: 981.2 cps
+[05:40:33] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (82.60%) World: minecraft:overworld Regions: 127/156 Chunks: 131941/159744 Elapsed: 00:03:23 ETA: 00:00:42 Rate: 987.1 cps
+[05:40:34] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (82.84%) World: minecraft:overworld Regions: 128/156 Chunks: 132336/159744 Elapsed: 00:03:24 ETA: 00:00:42 Rate: 906.9 cps
+[05:40:35] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (83.08%) World: minecraft:overworld Regions: 128/156 Chunks: 132711/159744 Elapsed: 00:03:25 ETA: 00:00:41 Rate: 879.4 cps
+[05:40:36] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (83.79%) World: minecraft:overworld Regions: 129/156 Chunks: 133845/159744 Elapsed: 00:03:26 ETA: 00:00:39 Rate: 908.8 cps
+[05:40:37] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (84.61%) World: minecraft:overworld Regions: 130/156 Chunks: 135167/159744 Elapsed: 00:03:27 ETA: 00:00:37 Rate: 955.9 cps
+[05:40:38] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (84.90%) World: minecraft:overworld Regions: 131/156 Chunks: 135615/159744 Elapsed: 00:03:28 ETA: 00:00:37 Rate: 949.5 cps
+[05:40:39] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (85.18%) World: minecraft:overworld Regions: 131/156 Chunks: 136064/159744 Elapsed: 00:03:29 ETA: 00:00:36 Rate: 946.1 cps
+[05:40:40] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (85.52%) World: minecraft:overworld Regions: 132/156 Chunks: 136614/159744 Elapsed: 00:03:30 ETA: 00:00:35 Rate: 929.1 cps
+[05:40:41] [Server thread/INFO]: MiffMoff has made the advancement [Country Lode, Take Me Home]
+[05:40:41] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (85.89%) World: minecraft:overworld Regions: 132/156 Chunks: 137198/159744 Elapsed: 00:03:31 ETA: 00:00:34 Rate: 911.3 cps
+[05:40:42] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (86.16%) World: minecraft:overworld Regions: 133/156 Chunks: 137634/159744 Elapsed: 00:03:32 ETA: 00:00:34 Rate: 908.1 cps
+[05:40:43] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (86.44%) World: minecraft:overworld Regions: 133/156 Chunks: 138079/159744 Elapsed: 00:03:33 ETA: 00:00:33 Rate: 903.9 cps
+[05:40:44] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (86.74%) World: minecraft:overworld Regions: 134/156 Chunks: 138559/159744 Elapsed: 00:03:34 ETA: 00:00:32 Rate: 901.0 cps
+[05:40:45] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (87.05%) World: minecraft:overworld Regions: 134/156 Chunks: 139061/159744 Elapsed: 00:03:35 ETA: 00:00:31 Rate: 880.5 cps
+[05:40:46] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (87.33%) World: minecraft:overworld Regions: 135/156 Chunks: 139501/159744 Elapsed: 00:03:36 ETA: 00:00:31 Rate: 875.5 cps
+[05:40:47] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (87.58%) World: minecraft:overworld Regions: 135/156 Chunks: 139896/159744 Elapsed: 00:03:37 ETA: 00:00:30 Rate: 820.0 cps
+[05:40:48] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (87.88%) World: minecraft:overworld Regions: 135/156 Chunks: 140388/159744 Elapsed: 00:03:38 ETA: 00:00:30 Rate: 716.6 cps
+[05:40:49] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (88.15%) World: minecraft:overworld Regions: 136/156 Chunks: 140816/159744 Elapsed: 00:03:39 ETA: 00:00:29 Rate: 646.5 cps
+[05:40:50] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (88.42%) World: minecraft:overworld Regions: 136/156 Chunks: 141247/159744 Elapsed: 00:03:40 ETA: 00:00:28 Rate: 543.9 cps
+[05:40:51] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (88.66%) World: minecraft:overworld Regions: 137/156 Chunks: 141631/159744 Elapsed: 00:03:41 ETA: 00:00:28 Rate: 537.5 cps
+[05:40:52] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (88.88%) World: minecraft:overworld Regions: 137/156 Chunks: 141982/159744 Elapsed: 00:03:42 ETA: 00:00:27 Rate: 530.5 cps
+[05:40:53] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (89.51%) World: minecraft:overworld Regions: 138/156 Chunks: 142989/159744 Elapsed: 00:03:43 ETA: 00:00:26 Rate: 552.4 cps
+[05:40:54] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (89.95%) World: minecraft:overworld Regions: 139/156 Chunks: 143683/159744 Elapsed: 00:03:44 ETA: 00:00:25 Rate: 567.4 cps
+[05:40:55] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (89.95%) World: minecraft:overworld Regions: 139/156 Chunks: 143683/159744 Elapsed: 00:03:45 ETA: 00:00:25 Rate: 577.5 cps
+[05:40:55] [Server thread/ERROR]: Failed to parse saved data for 'SavedDataType[idcounts]': Not a map: null
+[05:40:56] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (90.50%) World: minecraft:overworld Regions: 139/156 Chunks: 144569/159744 Elapsed: 00:03:46 ETA: 00:00:23 Rate: 564.4 cps
+[05:40:57] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (90.92%) World: minecraft:overworld Regions: 140/156 Chunks: 145235/159744 Elapsed: 00:03:47 ETA: 00:00:22 Rate: 529.9 cps
+[05:40:58] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (91.26%) World: minecraft:overworld Regions: 141/156 Chunks: 145780/159744 Elapsed: 00:03:48 ETA: 00:00:21 Rate: 535.0 cps
+[05:40:59] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (91.47%) World: minecraft:overworld Regions: 141/156 Chunks: 146117/159744 Elapsed: 00:03:49 ETA: 00:00:21 Rate: 529.1 cps
+[05:41:00] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (91.70%) World: minecraft:overworld Regions: 141/156 Chunks: 146490/159744 Elapsed: 00:03:50 ETA: 00:00:20 Rate: 519.8 cps
+[05:41:01] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (91.89%) World: minecraft:overworld Regions: 142/156 Chunks: 146783/159744 Elapsed: 00:03:51 ETA: 00:00:20 Rate: 504.5 cps
+[05:41:02] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (92.07%) World: minecraft:overworld Regions: 142/156 Chunks: 147082/159744 Elapsed: 00:03:52 ETA: 00:00:19 Rate: 497.3 cps
+[05:41:03] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (92.30%) World: minecraft:overworld Regions: 142/156 Chunks: 147450/159744 Elapsed: 00:03:53 ETA: 00:00:19 Rate: 493.2 cps
+[05:41:04] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (92.62%) World: minecraft:overworld Regions: 143/156 Chunks: 147962/159744 Elapsed: 00:03:54 ETA: 00:00:18 Rate: 494.9 cps
+[05:41:05] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (92.88%) World: minecraft:overworld Regions: 143/156 Chunks: 148374/159744 Elapsed: 00:03:55 ETA: 00:00:17 Rate: 490.2 cps
+[05:41:06] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (93.16%) World: minecraft:overworld Regions: 144/156 Chunks: 148810/159744 Elapsed: 00:03:56 ETA: 00:00:17 Rate: 489.9 cps
+[05:41:07] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (93.38%) World: minecraft:overworld Regions: 144/156 Chunks: 149176/159744 Elapsed: 00:03:57 ETA: 00:00:16 Rate: 488.4 cps
+[05:41:08] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (93.57%) World: minecraft:overworld Regions: 144/156 Chunks: 149468/159744 Elapsed: 00:03:58 ETA: 00:00:16 Rate: 477.9 cps
+[05:41:09] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (93.82%) World: minecraft:overworld Regions: 145/156 Chunks: 149877/159744 Elapsed: 00:03:59 ETA: 00:00:15 Rate: 476.9 cps
+[05:41:10] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (94.83%) World: minecraft:overworld Regions: 146/156 Chunks: 151478/159744 Elapsed: 00:04:00 ETA: 00:00:13 Rate: 538.5 cps
+[05:41:11] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (95.49%) World: minecraft:overworld Regions: 147/156 Chunks: 152542/159744 Elapsed: 00:04:01 ETA: 00:00:11 Rate: 574.3 cps
+[05:41:12] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (96.07%) World: minecraft:overworld Regions: 148/156 Chunks: 153459/159744 Elapsed: 00:04:02 ETA: 00:00:09 Rate: 604.1 cps
+[05:41:13] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (96.47%) World: minecraft:overworld Regions: 149/156 Chunks: 154110/159744 Elapsed: 00:04:03 ETA: 00:00:08 Rate: 585.3 cps
+[05:41:14] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (97.53%) World: minecraft:overworld Regions: 150/156 Chunks: 155799/159744 Elapsed: 00:04:04 ETA: 00:00:06 Rate: 637.7 cps
+[05:41:15] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (98.14%) World: minecraft:overworld Regions: 151/156 Chunks: 156779/159744 Elapsed: 00:04:05 ETA: 00:00:04 Rate: 654.8 cps
+[05:41:16] [squaremap-render-progresslogger-[minecraft:overworld]/INFO]: [squaremap] (99.72%) World: minecraft:overworld Regions: 154/156 Chunks: 159296/159744 Elapsed: 00:04:06 ETA: 00:00:00 Rate: 736.4 cps
+[05:41:17] [squaremap-render-[minecraft:overworld]-1/INFO]: [squaremap] Finished rendering map for minecraft:overworld
+[05:42:29] [Server thread/INFO]: MiffMoff issued server command: /squaremap:map link
+[05:42:56] [Server thread/INFO]: MiffMoff issued server command: /gamemode spectator
+[05:42:56] [Server thread/INFO]: [MiffMoff: Set own game mode to Spectator Mode]
+[05:43:00] [Server thread/INFO]: MiffMoff issued server command: /gamemode creative
+[05:43:00] [Server thread/INFO]: [MiffMoff: Set own game mode to Creative Mode]
+[05:43:40] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:40] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:40] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:40] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:40] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:40] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:40] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:40] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:40] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:40] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:40] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:40] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:41] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:41] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:41] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:41] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:41] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:41] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:41] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:41] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:41] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:41] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:41] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:41] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:45] [Thread-12/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.attribute.CraftAttribute
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:45] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:45] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+[05:43:45] [Thread-12/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:43:45] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
+[05:43:45] [Thread-12/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[05:43:45] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:44:17] [Server thread/INFO]: MiffMoff issued server command: /gamemode spectator
+[05:44:17] [Server thread/INFO]: [MiffMoff: Set own game mode to Spectator Mode]
+[05:44:18] [Server thread/INFO]: MiffMoff issued server command: /gamemode survival
+[05:44:18] [Server thread/INFO]: [MiffMoff: Set own game mode to Survival Mode]
+[05:45:17] [Server thread/INFO]: MiffMoff issued server command: /gamemode creative
+[05:45:17] [Server thread/INFO]: [MiffMoff: Set own game mode to Creative Mode]
+[05:46:18] [Server thread/INFO]: MiffMoff lost connection: Disconnected
+[05:46:18] [Server thread/INFO]: MiffMoff left the game
+[05:46:23] [Server thread/INFO]: Stopping server
+[05:46:23] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[05:46:23] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[05:46:23] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[05:46:23] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2965
+[05:46:23] [Server thread/INFO]: [Plan] Processing complete.
+[05:46:23] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[05:46:23] [Server thread/INFO]: [Plan] Transaction queue closed.
+[05:46:23] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[05:46:23] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[05:46:23] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[05:46:23] [Server thread/INFO]: [squaremap] Disabling squaremap v1.3.6
+[05:46:23] [Server thread/INFO]: [io.undertow] stopping server: Undertow - 2.3.18.Final
+[05:46:23] [Server thread/INFO]: [squaremap] Internal webserver stopped
+[05:46:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
+[05:46:23] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[05:46:23] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[05:46:24] [WebSocketConnectReadThread-196/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[05:46:24] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.4
+[05:46:24] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:46:24] [Server thread/INFO]: Saving players
+[05:46:24] [Server thread/INFO]: Saving worlds
+[05:46:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:46:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:46:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:46:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Saved 108 block chunks, 170 entity chunks, 0 poi chunks in world 'world' in 0.37s
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[05:46:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 17 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[05:46:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[05:46:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[05:46:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:46:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:46:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:46:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:46:25] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[05:46:25] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[05:46:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[05:46:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
