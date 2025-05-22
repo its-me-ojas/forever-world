@@ -94,3 +94,11 @@ world-settings:
                 spectators: true
                 map-invisibility-equipment: true
             use-display-names: false
+        world_nether:
+            map:
+                enabled: true
+                display-name: Nether
+        world_the_end:
+            map:
+                enabled: true
+                display-name: The End
