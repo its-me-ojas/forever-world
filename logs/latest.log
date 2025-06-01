@@ -1,137 +1,143 @@
-[16:11:03] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu125.04; Ubuntu null) on Linux 6.14.0-1006-gcp (amd64)
-[16:11:03] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-88-main@113b18e (2025-05-20T00:45:12Z) for Minecraft 1.21.5
-[16:11:03] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:11:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[16:11:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - CoreProtect (22.4), Geyser-Spigot (2.7.1-SNAPSHOT), Plan (5.6 build 2965), SkinsRestorer (15.6.4), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), squaremap (1.3.6), voicechat (2.5.25)
-[16:11:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:11:14] [ServerMain/INFO]: Loaded 1373 recipes
-[16:11:14] [ServerMain/INFO]: Loaded 1484 advancements
-[16:11:14] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[16:11:14] [Server thread/INFO]: Loading properties
-[16:11:15] [Server thread/INFO]: This server is running Paper version 1.21.5-88-main@113b18e (2025-05-20T00:45:12Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[16:11:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:11:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:11:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:11:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[16:11:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[16:11:16] [Server thread/INFO]: Default game type: SURVIVAL
-[16:11:16] [Server thread/INFO]: Generating keypair
-[16:11:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:11:16] [Server thread/INFO]: Using epoll channel type
-[16:11:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:11:16] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[16:11:17] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[16:11:18] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[16:11:19] [Server thread/INFO]: [floodgate] Took 1,465ms to boot Floodgate
-[16:11:19] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
-[16:11:19] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.25
-[16:11:19] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.4
-[16:11:19] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2965
-[16:11:19] [Server thread/INFO]: [squaremap] Loading server plugin squaremap v1.3.6
-[16:11:19] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[16:11:19] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[16:11:19] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[16:11:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:11:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.4
-[16:11:21] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
-[16:11:21] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[16:11:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[16:11:22] [Server thread/INFO]: [squaremap] Enabling squaremap v1.3.6
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.4
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7ee6269
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[16:11:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[16:11:23] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.18.Final
-[16:11:24] [Server thread/INFO]: [org.xnio] XNIO version 3.8.16.Final
-[16:11:24] [Server thread/INFO]: [org.xnio.nio] XNIO NIO Implementation Version 3.8.16.Final
-[16:11:24] [Server thread/INFO]: [org.jboss.threads] JBoss Threads version 3.5.0.Final
-[16:11:24] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8085
-[16:11:24] [Server thread/INFO]: Preparing level "world"
-[16:11:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:11:25] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:26] [Server thread/INFO]: Preparing spawn area: 2%
-[16:11:26] [Server thread/INFO]: Preparing spawn area: 18%
-[16:11:26] [Server thread/INFO]: Preparing spawn area: 18%
-[16:11:26] [Server thread/INFO]: Time elapsed: 1696 ms
-[16:11:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:11:27] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:27] [Server thread/INFO]: Time elapsed: 438 ms
-[16:11:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:11:27] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:27] [Server thread/INFO]: Time elapsed: 151 ms
-[16:11:27] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[16:11:28] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
-[16:11:28] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[16:11:28] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[16:11:28] [Server thread/INFO]: --------------------
-[16:11:28] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[16:11:28] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[16:11:28] [Server thread/INFO]: --------------------
-[16:11:28] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.25
-[16:11:28] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.5-R0.1
-[16:11:28] [Server thread/ERROR]: [voicechat] Incompatible Bukkit version: 1.21.5-R0.1
-[16:11:28] [Server thread/ERROR]: [voicechat] Disabling Simple Voice Chat
-[16:11:28] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.25
-[16:11:28] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2965
-[16:11:30] [Server thread/INFO]: [Plan] 
-[16:11:30] [Server thread/INFO]: [Plan]            ██▌
-[16:11:30] [Server thread/INFO]: [Plan]      ██▌   ██▌
-[16:11:30] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
-[16:11:30] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2965
-[16:11:30] [Server thread/INFO]: [Plan] 
-[16:11:30] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
-[16:11:30] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
-[16:11:30] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
-[16:11:30] [Server thread/INFO]: [Plan] SQLite-database connection established.
-[16:11:30] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
-[16:11:31] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
-[16:11:31] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
-[16:11:31] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
-[16:11:31] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
-[16:11:31] [Server thread/INFO]: [Plan] Loading server identifying information
-[16:11:31] [Server thread/INFO]: [Plan] Server identifier loaded: 75f849c5-a0ca-4135-9466-d45e32fe6766
-[16:11:31] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
-[16:11:31] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
-[16:11:31] [Server thread/INFO]: [Plan] Registered extension: Floodgate
-[16:11:32] [Server thread/INFO]: [Plan] Player Analytics Enabled.
-[16:11:32] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[16:11:32] [Server thread/INFO]: [spark] Starting background profiler...
-[16:11:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:11:33] [Server thread/INFO]: [Geyser-Spigot] 
-[16:11:33] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
-[16:11:33] [Server thread/INFO]: [Geyser-Spigot] 
-[16:11:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:11:42] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[16:11:42] [Server thread/INFO]: [Geyser-Spigot] Done (9.175s)! Run /geyser help for help!
-[16:11:42] [Server thread/INFO]: Done preparing level "world" (18.278s)
-[16:11:42] [Server thread/INFO]: Running delayed init tasks
-[16:11:42] [ForkJoinPool.commonPool-worker-1/INFO]: [squaremap] Fetching version information...
-[16:11:42] [Server thread/INFO]: Done (40.537s)! For help, type "help"
-[16:11:42] [Craft Scheduler Thread - 3 - Plan/INFO]: [Plan] You're using the latest version.
-[16:13:01] [Server thread/INFO]: Stopping server
-[16:13:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[16:13:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[16:13:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[16:13:01] [Server thread/INFO]: [squaremap] Disabling squaremap v1.3.6
-[16:13:01] [Server thread/INFO]: [io.undertow] stopping server: Undertow - 2.3.18.Final
-[16:13:01] [Server thread/INFO]: [squaremap] Internal webserver stopped
-[16:13:01] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2965
-[16:13:01] [Server thread/INFO]: [Plan] Processing complete.
-[16:13:01] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
-[16:13:01] [Server thread/INFO]: [Plan] Transaction queue closed.
-[16:13:01] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
-[16:13:01] [Server thread/INFO]: [Plan] Closed SQLite connection.
-[16:13:01] [Server thread/INFO]: [Plan] Player Analytics Disabled.
-[16:13:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.4
-[16:13:01] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
-[16:13:01] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[21:44:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6; Arch Linux null) on Linux 6.14.6-arch1-1 (amd64)
+[21:44:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-88-main@113b18e (2025-05-20T00:45:12Z) for Minecraft 1.21.5
+[21:44:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:44:37] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/voicechat-bukkit-2.5.30.jar'...
+[21:44:38] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/voicechat-bukkit-2.5.30.jar' in 738ms.
+[21:44:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[21:44:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - CoreProtect (22.4), Geyser-Spigot (2.7.1-SNAPSHOT), Plan (5.6 build 2965), SkinsRestorer (15.6.4), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), squaremap (1.3.6), voicechat (2.5.30)
+[21:44:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:44:45] [ServerMain/INFO]: Loaded 1373 recipes
+[21:44:45] [ServerMain/INFO]: Loaded 1484 advancements
+[21:44:45] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[21:44:45] [Server thread/INFO]: Loading properties
+[21:44:45] [Server thread/INFO]: This server is running Paper version 1.21.5-88-main@113b18e (2025-05-20T00:45:12Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[21:44:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:44:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:44:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:44:46] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[21:44:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:44:46] [Server thread/INFO]: Default game type: SURVIVAL
+[21:44:46] [Server thread/INFO]: Generating keypair
+[21:44:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:44:46] [Server thread/INFO]: Using epoll channel type
+[21:44:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:44:46] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:44:47] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[21:44:48] [Server thread/WARN]: [floodgate] en_IN is not a supported Floodgate language.
+[21:44:48] [Server thread/INFO]: [floodgate] Took 1,068ms to boot Floodgate
+[21:44:48] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
+[21:44:48] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.30
+[21:44:48] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.4
+[21:44:48] [Server thread/INFO]: [squaremap] Loading server plugin squaremap v1.3.6
+[21:44:48] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2965
+[21:44:48] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[21:44:49] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:44:49] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:44:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:44:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.4
+[21:44:50] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[21:44:50] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[21:44:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:44:51] [Server thread/INFO]: [squaremap] Enabling squaremap v1.3.6
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.4
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7ee6269
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:44:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:44:54] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.18.Final
+[21:44:54] [Server thread/INFO]: [org.xnio] XNIO version 3.8.16.Final
+[21:44:54] [Server thread/INFO]: [org.xnio.nio] XNIO NIO Implementation Version 3.8.16.Final
+[21:44:54] [Server thread/INFO]: [org.jboss.threads] JBoss Threads version 3.5.0.Final
+[21:44:55] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8085
+[21:44:55] [Server thread/INFO]: Preparing level "world"
+[21:44:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:44:56] [Server thread/INFO]: Preparing spawn area: 0%
+[21:44:56] [Server thread/INFO]: Preparing spawn area: 4%
+[21:44:57] [Server thread/INFO]: Preparing spawn area: 18%
+[21:44:57] [Server thread/INFO]: Time elapsed: 1225 ms
+[21:44:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:44:57] [Server thread/INFO]: Preparing spawn area: 0%
+[21:44:57] [Server thread/INFO]: Time elapsed: 231 ms
+[21:44:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:44:57] [Server thread/INFO]: Preparing spawn area: 0%
+[21:44:57] [Server thread/INFO]: Time elapsed: 95 ms
+[21:44:57] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[21:44:58] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[21:44:59] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[21:44:59] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[21:44:59] [Server thread/INFO]: --------------------
+[21:44:59] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[21:44:59] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[21:44:59] [Server thread/INFO]: --------------------
+[21:44:59] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.30
+[21:44:59] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.5-R0.1
+[21:44:59] [Server thread/INFO]: [voicechat] Compatibility version 18
+[21:44:59] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[21:44:59] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2965
+[21:45:01] [Server thread/INFO]: [Plan] 
+[21:45:01] [Server thread/INFO]: [Plan]            ██▌
+[21:45:01] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[21:45:01] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[21:45:01] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2965
+[21:45:01] [Server thread/INFO]: [Plan] 
+[21:45:01] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[21:45:01] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[21:45:01] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[21:45:01] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[21:45:01] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[21:45:01] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[21:45:01] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[21:45:01] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[21:45:02] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[21:45:02] [Server thread/INFO]: [Plan] Loading server identifying information
+[21:45:02] [Server thread/INFO]: [Plan] Server identifier loaded: 75f849c5-a0ca-4135-9466-d45e32fe6766
+[21:45:02] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[21:45:02] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
+[21:45:02] [Server thread/INFO]: [Plan] Registered extension: Floodgate
+[21:45:02] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[21:45:02] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[21:45:03] [Server thread/INFO]: [spark] Starting background profiler...
+[21:45:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:45:03] [Server thread/INFO]: [Geyser-Spigot] 
+[21:45:03] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
+[21:45:03] [Server thread/INFO]: [Geyser-Spigot] 
+[21:45:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:45:09] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[21:45:09] [Server thread/INFO]: [Geyser-Spigot] Done (5.636s)! Run /geyser help for help!
+[21:45:09] [Server thread/INFO]: Done preparing level "world" (14.226s)
+[21:45:09] [Server thread/INFO]: Running delayed init tasks
+[21:45:09] [ForkJoinPool.commonPool-worker-5/INFO]: [squaremap] Fetching version information...
+[21:45:09] [Server thread/INFO]: Done (34.959s)! For help, type "help"
+[21:45:09] [Server thread/INFO]: [voicechat] Loading plugins
+[21:45:09] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[21:45:09] [Server thread/INFO]: [voicechat] Initializing plugins
+[21:45:09] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[21:45:09] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[21:45:10] [Craft Scheduler Thread - 3 - Plan/INFO]: [Plan] You're using the latest version.
+[21:45:19] [Server thread/INFO]: Stopping server
+[21:45:19] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[21:45:19] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:45:19] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:45:19] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2965
+[21:45:19] [Server thread/INFO]: [Plan] Processing complete.
+[21:45:19] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[21:45:19] [Server thread/INFO]: [Plan] Transaction queue closed.
+[21:45:19] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[21:45:19] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[21:45:19] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[21:45:19] [Server thread/INFO]: [squaremap] Disabling squaremap v1.3.6
+[21:45:19] [Server thread/INFO]: [io.undertow] stopping server: Undertow - 2.3.18.Final
+[21:45:19] [Server thread/INFO]: [squaremap] Internal webserver stopped
+[21:45:19] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.4
+[21:45:19] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.30
+[21:45:19] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[21:45:19] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
