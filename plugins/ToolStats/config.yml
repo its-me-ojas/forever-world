@@ -1,0 +1,349 @@
+# Use token system for tracking stats.
+# See https://github.com/hyperdefined/ToolStats/wiki/Token-System
+tokens:
+  enabled: false
+  craft-tokens: true
+  data:
+    player-kills:
+      title: "&7ToolStats: &8Player Kills Token"
+      lore:
+        - "&8Combine with a melee or ranged weapon in an anvil to track player kills."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    mob-kills:
+      title: "&7ToolStats: &8Mob Kills Token"
+      lore:
+        - "&8Combine with a melee or ranged weapon in an anvil to track mob kills."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    blocks-mined:
+      title: "&7ToolStats: &8Blocks Mined Token"
+      lore:
+        - "&8Combine with a pickaxe, axe, shovel, or shears in an anvil to track blocks mined."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    crops-mined:
+      title: "&7ToolStats: &8Crops Mined Token"
+      lore:
+        - "&8Combine with a hoe in an anvil to track crops broken."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    fish-caught:
+      title: "&7ToolStats: &8Fish Caught Token"
+      lore:
+        - "&8Combine with a fishing rod in an anvil to track fish caught."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    sheep-sheared:
+      title: "&7ToolStats: &8Sheep Sheared Token"
+      lore:
+        - "&8Combine with shears in an anvil to track sheep sheared."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    damage-taken:
+      title: "&7ToolStats: &8Damage Taken Token"
+      lore:
+        - "&8Combine with an armor piece in an anvil to track damage taken."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    damage-done:
+      title: "&7ToolStats: &8Damage Done Token"
+      lore:
+        - "&8Combine with a melee or ranged weapon in an anvil to track damage done."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    arrows-shot:
+      title: "&7ToolStats: &8Arrows Shot Token"
+      lore:
+        - "&8Combine with a bow or crossbow in an anvil to track arrows shot."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    flight-time:
+      title: "&7ToolStats: &8Flight Time Token"
+      lore:
+        - "&8Combine with an elytra in an anvil to track flight time."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    reset:
+      title: "&7ToolStats: &8Reset Token"
+      lore:
+        - "&8Combine in an anvil with to reset ALL stats for this item. Tokens on this item stay."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+    remove:
+      title: "&7ToolStats: &8Remove Token"
+      lore:
+        - "&8Combine in an anvil with to REMOVE ALL stats and tokens for this item."
+        - "&8Uses &7{levels} &8level."
+      levels: 1
+      material: PAPER
+      custom-model-data:
+        enabled: false
+        type: float
+        value: 1001
+
+enabled:
+  # Will show "Crafted by <player>"
+  crafted-by:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    mace: true
+    fishing-rod: true
+  # Will show "Crafted on <date>"
+  crafted-on:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    mace: true
+    fishing-rod: true
+  # Will show "Fished by <player>"
+  fished-by:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    fishing-rod: true
+  # Will show "Fished on <date>"
+  fished-on:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    fishing-rod: true
+  # Will show "Found by <player>"
+  looted-by:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    fishing-rod: true
+  # Will show "Found on <date>"
+  looted-on:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    fishing-rod: true
+  # Will show "Traded by <player>"
+  traded-by:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    fishing-rod: true
+  # Will show "Traded on <date>"
+  traded-on:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    fishing-rod: true
+  damage-done:
+    sword: true
+    axe: true
+    trident: true
+    bow: true
+    mace: true
+  player-kills:
+    sword: true
+    axe: true
+    trident: true
+    bow: true
+    mace: true
+  mob-kills:
+    sword: true
+    axe: true
+    trident: true
+    bow: true
+    mace: true
+  blocks-mined:
+    pickaxe: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+  # Will show "Spawned in by <player>"
+  spawned-in-by:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    mace: true
+    fishing-rod: true
+  # Will show "Spawned in on <date>"
+  spawned-in-on:
+    pickaxe: true
+    sword: true
+    shovel: true
+    axe: true
+    hoe: true
+    shears: true
+    bow: true
+    armor: true
+    mace: true
+    fishing-rod: true
+  fish-caught: true
+  sheep-sheared: true
+  armor-damage: true
+  dropped-by: true
+  dropped-on: true
+  elytra-tag: true
+  arrows-shot: true
+  flight-time: true
+  crops-harvested: true
+
+messages:
+  crafted:
+    crafted-by: "&7Crafted by: &8{player}"
+    crafted-on: "&7Crafted on: &8{date}"
+  fished:
+    caught-by: "&7Caught by: &8{player}"
+    caught-on: "&7Caught on: &8{date}"
+    fish-caught: "&7Fish caught: &8{fish}"
+  looted:
+    looted-by: "&7Looted by: &8{player}"
+    looted-on: "&7Looted on: &8{date}"
+    found-by: "&7Found by: &8{player}"
+    found-on: "&7Found on: &8{date}"
+  traded:
+    traded-by: "&7Traded by: &8{player}"
+    traded-on: "&7Traded on: &8{date}"
+  kills:
+    mob: "&7Mob kills: &8{kills}"
+    player: "&7Player kills: &8{kills}"
+  spawned-in:
+    spawned-by: "&7Spawned in by: &8{player}"
+    spawned-on: "&7Spawned on: &8{date}"
+  blocks-mined: "&7Blocks mined: &8{blocks}"
+  crops-harvested: "&7Crops harvested: &8{crops}"
+  sheep-sheared: "&7Sheep sheared: &8{sheep}"
+  dropped-by: "&7Dropped by: &8{name}" # name will be mob name
+  dropped-on: "&7Dropped on: &8{date}"
+  damage-taken: "&7Damage taken: &8{damage}"
+  arrows-shot: "&7Arrows shot: &8{arrows}"
+  flight-time: "&7Flight time: &8{years}y {months}m {days}d {hours}h {minutes}m {seconds}s"
+  damage-done: "&7Damage done: &8{damage}"
+  # Set display name for mobs. See: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+  mobs:
+    ZOMBIE: "Zombie"
+
+# Change the default formatting for dates.
+# See: https://www.digitalocean.com/community/tutorials/java-simpledateformat-java-date-format
+# Example: "dd/MM/yyyy"
+date-format: "M/dd/yyyy"
+
+# Change number formatting.
+# You probably do not need to touch this.
+number-formats:
+  comma-separator: ","
+  decimal-separator: "."
+  comma-format: "#,###"
+  decimal-format: "#,##0.00"
+
+# When any tool is created, it will generate a hash for the item.
+# This hash is not on the item lore, only stored in the NBT data.
+# This has no use currently, but can be used for future features for dupe detection.
+generate-hash-for-items: false
+
+# Make when items are created at midnight on the date.
+# This makes dates for items more "normalized" instead of being at different times.
+normalize-time-creation: false
+
+# Allows stats and origins to be tracked if the player is in creative mode.
+allow-creative: false
+
+config-version: 13
