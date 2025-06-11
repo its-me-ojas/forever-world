@@ -287,4 +287,5 @@ Plugins:
 Customized_files:
     Path: "web"
     Plan:
+        error,html: false
         index,html: false
